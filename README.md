@@ -29,4 +29,7 @@ may be properly loaded by a browser.
 
 Firefox browser fails to load the Java applet by the HTML file "5_fails_with_browser.html".
 
+So browsers don´t like a relative path with the "codebase" parameter, e.g. 'codebase="../"'
+
+
 
