@@ -1,0 +1,1 @@
+appletviewer html/4_fails_with_appletviewer.html
