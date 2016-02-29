@@ -3,8 +3,8 @@ Browser vs. Appletviewer - Test of the "codebase" and "archive" parameters of a 
 
 By this project, I explore how to call a Java applet by a HTML page, by both a browser and the Java appletviewer.
 
-  -Java 8, on Windows.
-  -Firefox browser.
+* Java 8, on Windows.
+* Firefox browser.
 
 ## Appletviewer doesn't like a relative path with the "archive" parameter ##
 
