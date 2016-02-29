@@ -3,8 +3,10 @@ Browser vs. Appletviewer - Test of the "codebase" and "archive" parameters of a 
 
 By this project, I explore how to call a Java applet by a HTML page, by both a browser and the Java appletviewer.
 
+ -Java 8, on Windows.
+ -Firefox browser.
+
 ## Appletviewer doesn't like a relative path with the "archive" parameter ##
-On Windows, with Firefox browser and Java 8:
 
 "jrun1.bat",
 "jrun2.bat",
@@ -20,7 +22,7 @@ loads the HTML file "4_fails_with_appletviewer.html" and aborts operation with
 
 So the appletviewer doesn´t like a relative path with the "archive" parameter, e.g. 'archive="../applet_awt.jar"'
 
-## Browsers don't like a relative path with the "codebase" parameter ##
+## The Java plugin for browsers don't like a relative path with the "codebase" parameter ##
 
 "3_works_with_browser_and_appletviewer.html",
 "4_fails_with_appletviewer.html"
